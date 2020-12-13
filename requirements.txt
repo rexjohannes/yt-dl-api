@@ -1,0 +1,2 @@
+flask==1.0
+youtube_dl==1.0
