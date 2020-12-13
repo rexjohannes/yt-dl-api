@@ -17,7 +17,7 @@ class MyLogger(object):
 
 @app.route('/')
 def hello_world():
-    return 'Hello oWrld!'
+    return 'Hello World!'
 
 @app.route('/dl/<id>')
 def download_yt(id):
