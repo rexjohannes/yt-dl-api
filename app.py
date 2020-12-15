@@ -33,7 +33,7 @@ def download_yt(id):
     }
     with youtube_dl.YoutubeDL(ydl_opts) as ydl:
         ydl.download(['https://www.youtube.com/watch?v=' + id])
-        return 'http://127.0.0.1:5000/uploads/' + id + ".mp3"
+        return 'https://rex-yt-dl.herokuapp.com/uploads/' + id + ".mp3"
 
 @app.route('/uploads/<path:filename>')
 def download_file(filename):
